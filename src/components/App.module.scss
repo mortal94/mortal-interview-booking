@@ -1,0 +1,32 @@
+@import '../styles/vars';
+
+.app :global {
+    .page-content {
+    }
+
+    .content {
+        display: flex;
+        height: 100%;
+    }
+    .main-dashboard {
+        width: 65%;
+    }
+    .booking-title {
+        font-size: 17px;
+        color: white;
+        padding-bottom: 27px;
+    }
+
+    .week-information {
+        margin-top: 31px;
+        border-top: solid 1px #374148;
+    }
+    .hotel-general-information {
+    }
+
+    .arrived-list {
+        padding-left: 1px;
+    }
+
+
+}

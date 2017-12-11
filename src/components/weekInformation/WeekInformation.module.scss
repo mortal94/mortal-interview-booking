@@ -1,0 +1,53 @@
+.weekInformation :global {
+    .booking-title {
+        font-size: 17px;
+        color: white;
+        padding-top: 30px;
+        padding-bottom: 29px;
+    }
+
+    .circle {
+        margin-top: 7.2px;
+        background-color: #25cd6b;
+        height: 7.3px;
+        width: 7.3px;
+        border-radius: 50px;
+    }
+
+    .booking-row-container {
+        padding: 0;
+        margin-left: 0;
+        border-top: solid 1px #29353e;
+    }
+    .booking-row {
+        padding-top: 12px;
+        padding-bottom: 12px;
+        margin-left: 0;
+        margin-right: 0;
+        border-bottom: solid 1px #29353e;
+    }
+    .week-availability{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .availability-percentage{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 130px;
+        width: 130px;
+        font-size: 40px;
+        border: solid 3px;
+        border-radius: 50%;
+    }
+    .percentage-green{
+        color: green;
+    }
+    .percentage-yellow{
+        color: yellow;
+    }
+    .percentage-red{
+        color: red;
+    }
+}

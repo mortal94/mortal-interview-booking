@@ -1,0 +1,49 @@
+.employeesStats :global {
+    .employee-stats-title {
+        font-size: 17px;
+        color: white;
+        margin-top: 30px;
+        margin-bottom: 28px;
+    }
+    .employee-container {
+        display: flex;
+        padding-bottom: 4px;
+
+        .employee-image {
+            height: 33px;
+            width: 33px;
+
+            img{
+                border-radius: 50%;
+            }
+        }
+
+        .employee-stats-container {
+            margin-left: 13px;
+            width: 75%;
+
+            .employee-stats {
+                display: flex;
+                font-size: 12px;
+                margin-bottom: 3px;
+
+                .employee-name {
+                    width: 112px;
+                    color: white;
+                }
+                .employee-hours {
+                    width: 61px;
+                    margin-left: 40px;
+                }
+            }
+            .custom-progressbar {
+                height: 2.5px;
+                background-color: #323d45;
+
+                .custom-progressbar-inner{
+                    background-color: #25cd6b;
+                }
+            }
+        }
+    }
+}

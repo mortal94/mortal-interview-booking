@@ -1,0 +1,52 @@
+.recentActivities :global {
+    .event-container-padding{
+        padding-bottom: 36px;
+        border-bottom: solid 1px #374148;
+    }
+    .event-container {
+        height: 80px;
+        border-left: solid 1.8px #27323a;
+
+        .event-indicator {
+            position: absolute;
+            margin-left: -5px;
+            background-color: #202b33;
+            width: 10px;
+            height: 10px;
+            border: solid 2px;
+            border-radius: 50%;
+        }
+        .new-booking-activity {
+            color: green;
+        }
+        .maintenance-activity {
+            color: red;
+        }
+        .system-audit-activity {
+            color: yellow;
+        }
+
+        .event-padding {
+            padding-left: 14px;
+            .title-container {
+                display: flex;
+
+                .activity-type {
+                    min-width: 167px;
+                    color: white;
+                }
+                .activity-time {
+                    width: 60px;
+                    height: 20px;
+                    background-color: #28353d;
+                    border-radius: 10px;
+                }
+            }
+            .activity-description {
+                margin-top: 6px;
+                font-size: 12px;
+                line-height: 18px;
+            }
+        }
+    }
+}

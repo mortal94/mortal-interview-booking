@@ -1,0 +1,23 @@
+.navbar :global {
+    .booking-navbar {
+        height: 70px;
+        background-color: #253139;
+        box-shadow: 0 5px 3px -6px #000;
+    }
+
+    .logo {
+        font-size: 14px;
+        padding-top: 26px;
+        padding-left: 80px;
+        color: #87959f;
+        float: left;
+    }
+
+    .user-picture {
+        padding-right: 110px;
+        padding-top: 15px;
+        float: right;
+        width: 40px;
+        height: 40px;
+    }
+}
